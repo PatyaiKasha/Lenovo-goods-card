@@ -1,0 +1,76 @@
+.card {
+    position: relative;
+    box-sizing: border-box;
+    margin: 25px auto 0;
+    width: 380px;
+    height: 530px;
+    border: 2px solid #5a5a5a;
+    font-family: Tahoma, sans-serif;
+    p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 10px;
+        line-height: 26px;
+        .capital {
+            text-transform: uppercase;
+        }
+    }
+    .goods-img {
+        position: absolute;
+        width: 250px;
+        height: 288px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 87px;
+    }
+    .btn-disc {
+        width: 190px;
+        height: 31px;
+        text-align: center;
+        font-size: 23px;
+        line-height: 31px;
+        background-color: #8bc144;
+        color: #fff;
+        font-weight: bold;
+        position: absolute;
+        top: 375px;
+        cursor: pointer;
+    }
+    .price {
+        position: absolute;
+        text-align: center;
+        font-weight: bold;
+        font-size: 32px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 416px;
+    }
+    .btn-buy {
+        width: 229px;
+        height: 46px;
+        background-color: #ff0000;
+        text-align: center;
+        line-height: 46px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 31px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 473px;
+        cursor: pointer;
+    }
+    .btn-disc,
+    .btn-buy {
+        &:hover {
+            box-shadow: -3px 3px 0px 0px #9c9c9c;
+        }
+    }
+}

@@ -1,18 +1,16 @@
 .card {
   position: relative;
   box-sizing: border-box;
-  margin: 0 auto;
-  margin-top: 25px;
+  margin: 25px auto 0;
   width: 380px;
   height: 530px;
   border: 2px solid #5a5a5a;
-  font-family: "PT Sans Narrow", sans-serif; }
+  font-family: Tahoma, sans-serif; }
   .card p {
     text-align: center;
     font-weight: bold;
     font-size: 22px;
     margin-top: 10px;
-    letter-spacing: 0.14em;
     line-height: 26px; }
     .card p .capital {
       text-transform: uppercase; }
@@ -63,7 +61,8 @@
     margin-right: auto;
     top: 473px;
     cursor: pointer; }
-  .card .btn-disc:hover, .card .btn-buy:hover {
+  .card .btn-disc:hover,
+  .card .btn-buy:hover {
     box-shadow: -3px 3px 0px 0px #9c9c9c; }
 
 /*# sourceMappingURL=style.css.map */
