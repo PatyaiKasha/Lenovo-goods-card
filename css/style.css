@@ -18,49 +18,41 @@
     position: absolute;
     width: 250px;
     height: 288px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
     top: 87px; }
-  .card .btn-disc {
-    width: 190px;
-    height: 31px;
-    text-align: center;
-    font-size: 23px;
-    line-height: 31px;
-    background-color: #8bc144;
-    color: #fff;
-    font-weight: bold;
-    position: absolute;
-    top: 375px;
-    cursor: pointer; }
   .card .price {
     position: absolute;
     text-align: center;
     font-weight: bold;
     font-size: 32px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
     top: 416px; }
+  .card .btn-disc,
+  .card .btn-buy {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    cursor: pointer; }
+  .card .btn-disc {
+    width: 190px;
+    height: 31px;
+    background-color: #8bc144;
+    font-size: 23px;
+    line-height: 31px;
+    top: 375px; }
   .card .btn-buy {
     width: 229px;
     height: 46px;
     background-color: #ff0000;
-    text-align: center;
-    line-height: 46px;
-    color: #fff;
-    font-weight: bold;
     font-size: 31px;
-    position: absolute;
+    line-height: 46px;
+    top: 473px; }
+  .card .goods-img,
+  .card .price,
+  .card .btn-buy {
     left: 0;
     right: 0;
     margin-left: auto;
-    margin-right: auto;
-    top: 473px;
-    cursor: pointer; }
+    margin-right: auto; }
   .card .btn-disc:hover,
   .card .btn-buy:hover {
     box-shadow: -3px 3px 0px 0px #9c9c9c; }
